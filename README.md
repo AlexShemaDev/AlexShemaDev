@@ -21,8 +21,8 @@
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=AlexShemaDev&show_icons=true&theme=dark&bg_color=0d0f12&title_color=cc1414&icon_color=cc1414&text_color=9aa3ae&border_color=22282f&border_radius=4&include_all_commits=true&count_private=true&custom_title=COMBAT+STATS" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexShemaDev&layout=compact&theme=dark&bg_color=0d0f12&title_color=cc1414&text_color=9aa3ae&border_color=22282f&border_radius=4&custom_title=ARSENAL+TÉCNICO&langs_count=8" />
+<img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AlexShemaDev&show_icons=true&theme=dark&bg_color=0d0f12&title_color=cc1414&icon_color=cc1414&text_color=9aa3ae&border_color=22282f&border_radius=4&include_all_commits=true&count_private=true&custom_title=COMBAT+STATS" />
+<img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AlexShemaDev&layout=compact&theme=dark&bg_color=0d0f12&title_color=cc1414&text_color=9aa3ae&border_color=22282f&border_radius=4&custom_title=TOP+LANGS&langs_count=8" />
 
 <br/>
 
@@ -66,17 +66,6 @@
 ## `> MISIONES ACTIVAS`
 
 <img src="assets/missions.svg" width="100%" alt="misiones activas"/>
-
----
-
-## `> ROADMAP`
-
-| VERSIÓN | ETA | MISIÓN |
-|---------|-----|--------|
-| `v1.0` | ✅ ACTIVO | Neuremy en producción · plataforma completa |
-| `v1.1` | Q3 2026 | Performance · Web Vitals · lazy loading |
-| `v1.2` | Q4 2026 | Artículos médicos · módulo de tienda |
-| `v2.0` | 2027 | Expansión internacional · multi-idioma |
 
 ---
 
