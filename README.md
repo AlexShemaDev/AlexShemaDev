@@ -26,7 +26,7 @@
 
 <br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=AlexShemaDev&theme=dark&background=0d0f12&border=22282f&stroke=22282f&ring=cc1414&fire=ff3333&currStreakLabel=cc1414&sideLabels=9aa3ae&currStreakNum=ffffff&sideNums=ffffff&dates=6b7785&border_radius=4)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=AlexShemaDev&theme=dark&background=0d0f12&border=22282f&stroeske=22282f&ring=cc1414&fire=ff3333&currStreakLabel=cc1414&sideLabels=9aa3ae&currStreakNum=ffffff&sideNums=ffffff&dates=6b7785&border_radius=4)](https://git.io/streak-stats)
 
 </div>
 
@@ -36,7 +36,7 @@
 
 <div align="center">
 
-[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AlexShemaDev&bg_color=0d0f12&color=9aa3ae&line=cc1414&point=ff3333&area=true&area_color=cc1414&border_color=22282f&custom_title=MAPA+DE+OPERACIONES+2026&radius=4)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="assets/contribution-grid.svg" width="100%" alt="contribution graph"/>
 
 </div>
 
