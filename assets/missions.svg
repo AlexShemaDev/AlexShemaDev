@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(204,20,20,0.05)" stroke-width="0.5"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .mono { font-family: 'Share Tech Mono', 'Courier New', monospace; }
+      .raj  { font-family: 'Rajdhani', 'Arial Narrow', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- bg -->
+  <rect width="800" height="240" fill="#0d0f12" rx="6"/>
+  <rect width="800" height="240" fill="url(#grid)" rx="6"/>
+
+  <!-- top border -->
+  <rect width="800" height="2" fill="#cc1414" rx="1" filter="url(#glow)"/>
+  <!-- left accent -->
+  <rect x="0" y="0" width="3" height="240" fill="#cc1414" rx="1" filter="url(#glow)"/>
+
+  <!-- corner brackets -->
+  <path d="M 12 8 L 12 22 M 12 8 L 26 8" stroke="#cc1414" stroke-width="1.5" fill="none"/>
+  <path d="M 788 8 L 788 22 M 788 8 L 774 8" stroke="#cc1414" stroke-width="1.5" fill="none"/>
+  <path d="M 12 232 L 12 218 M 12 232 L 26 232" stroke="#cc1414" stroke-width="1.5" fill="none"/>
+  <path d="M 788 232 L 788 218 M 788 232 L 774 232" stroke="#cc1414" stroke-width="1.5" fill="none"/>
+
+  <!-- SECTION LABEL -->
+  <text x="22" y="26" class="mono" font-size="9" fill="#6b7785" letter-spacing="3">// MISIONES ACTIVAS</text>
+
+  <!-- divider line -->
+  <line x1="22" y1="34" x2="778" y2="34" stroke="#22282f" stroke-width="1"/>
+
+  <!-- ── ROW 1: neuremy.com ── -->
+  <!-- dot -->
+  <circle cx="40" cy="62" r="5" fill="#cc1414" filter="url(#softglow)"/>
+  <!-- title -->
+  <text x="58" y="57" class="mono" font-size="14" fill="#ffffff" font-weight="bold">neuremy.com</text>
+  <text x="58" y="74" class="mono" font-size="11" fill="#6b7785">E-Learning médico · NestJS + Next.js · AWS · Stripe · Firebase</text>
+  <!-- badge -->
+  <rect x="680" y="48" width="94" height="20" rx="3" fill="rgba(204,20,20,0.15)" stroke="#cc1414" stroke-width="1"/>
+  <circle cx="693" cy="58" r="3.5" fill="#ff3333" filter="url(#softglow)"/>
+  <text x="702" y="62" class="mono" font-size="9" fill="#ff3333" letter-spacing="1">EN VIVO</text>
+
+  <!-- divider -->
+  <line x1="22" y1="90" x2="778" y2="90" stroke="#22282f" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- ── ROW 2: TopoQuizz ── -->
+  <circle cx="40" cy="117" r="5" fill="#cc1414" filter="url(#softglow)"/>
+  <text x="58" y="112" class="mono" font-size="14" fill="#ffffff" font-weight="bold">TopoQuizz</text>
+  <text x="58" y="129" class="mono" font-size="11" fill="#6b7785">App móvil iOS/Android · React Native · 2,500+ preguntas · offline</text>
+  <rect x="680" y="103" width="94" height="20" rx="3" fill="rgba(204,20,20,0.15)" stroke="#cc1414" stroke-width="1"/>
+  <circle cx="693" cy="113" r="3.5" fill="#ff3333" filter="url(#softglow)"/>
+  <text x="702" y="117" class="mono" font-size="9" fill="#ff3333" letter-spacing="1">EN VIVO</text>
+
+  <!-- divider -->
+  <line x1="22" y1="145" x2="778" y2="145" stroke="#22282f" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- ── ROW 3: Admin Platform ── -->
+  <rect x="33" y="162" width="14" height="14" rx="2" fill="none" stroke="#3d4755" stroke-width="1.5"/>
+  <path d="M 36 169 L 39 172 L 44 167" stroke="#9aa3ae" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <text x="58" y="167" class="mono" font-size="14" fill="#ffffff" font-weight="bold">Admin Platform</text>
+  <text x="58" y="184" class="mono" font-size="11" fill="#6b7785">Panel multi-producto · Neuremy Admin + TopoQuizz Admin · Firebase</text>
+  <rect x="662" y="158" width="112" height="20" rx="3" fill="rgba(61,71,85,0.4)" stroke="#3d4755" stroke-width="1"/>
+  <text x="678" y="172" class="mono" font-size="9" fill="#9aa3ae" letter-spacing="1">🔒 INTERNO</text>
+
+  <!-- divider -->
+  <line x1="22" y1="200" x2="778" y2="200" stroke="#22282f" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- ── ROW 4: TeamBreakingDevs ── -->
+  <rect x="34" y="216" width="12" height="12" rx="6" fill="none" stroke="#6b7785" stroke-width="1.5"/>
+  <path d="M 40 220 L 40 224 M 38 222 L 42 222" stroke="#6b7785" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <text x="58" y="222" class="mono" font-size="14" fill="#ffffff" font-weight="bold">TeamBreakingDevs</text>
+  <text x="58" y="234" class="mono" font-size="11" fill="#6b7785">Landing · Astro framework · sitio público de la organización</text>
+  <rect x="672" y="213" width="102" height="20" rx="3" fill="rgba(61,71,85,0.2)" stroke="#3d4755" stroke-width="1"/>
+  <text x="684" y="227" class="mono" font-size="9" fill="#6b7785" letter-spacing="1">🌐 PÚBLICO</text>
+</svg>

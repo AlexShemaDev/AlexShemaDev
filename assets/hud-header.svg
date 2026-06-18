@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="90" viewBox="0 0 800 90">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono');
+      .mono { font-family: 'Share Tech Mono', 'Courier New', monospace; }
+    </style>
+    <!-- grid pattern -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(204,20,20,0.06)" stroke-width="0.5"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="800" height="90" fill="#0d0f12" rx="6"/>
+  <rect width="800" height="90" fill="url(#grid)" rx="6"/>
+
+  <!-- red top border -->
+  <rect width="800" height="2" fill="#cc1414" rx="1" filter="url(#glow)"/>
+
+  <!-- corner brackets -->
+  <!-- TL -->
+  <path d="M 12 8 L 12 22 M 12 8 L 26 8" stroke="#cc1414" stroke-width="1.5" fill="none"/>
+  <!-- TR -->
+  <path d="M 788 8 L 788 22 M 788 8 L 774 8" stroke="#cc1414" stroke-width="1.5" fill="none"/>
+  <!-- BL -->
+  <path d="M 12 82 L 12 68 M 12 82 L 26 82" stroke="#cc1414" stroke-width="1.5" fill="none"/>
+  <!-- BR -->
+  <path d="M 788 82 L 788 68 M 788 82 L 774 82" stroke="#cc1414" stroke-width="1.5" fill="none"/>
+
+  <!-- left red accent bar -->
+  <rect x="0" y="0" width="3" height="90" fill="#cc1414" rx="1" filter="url(#glow)"/>
+
+  <!-- OPERATOR_ID label -->
+  <text x="22" y="30" class="mono" font-size="10" fill="#6b7785" letter-spacing="2">OPERATOR_ID</text>
+  <text x="22" y="52" class="mono" font-size="18" fill="#ffffff" letter-spacing="1" font-weight="bold">ALEXSHEMADEV</text>
+  <text x="22" y="70" class="mono" font-size="10" fill="#cc1414" letter-spacing="2">@SHEMA-YISRAEL</text>
+
+  <!-- center divider -->
+  <line x1="260" y1="16" x2="260" y2="74" stroke="#22282f" stroke-width="1"/>
+
+  <!-- RANK -->
+  <text x="280" y="30" class="mono" font-size="10" fill="#6b7785" letter-spacing="2">RANK</text>
+  <text x="280" y="52" class="mono" font-size="15" fill="#9aa3ae" letter-spacing="1">FULL-STACK DEVELOPER</text>
+
+  <!-- center divider 2 -->
+  <line x1="560" y1="16" x2="560" y2="74" stroke="#22282f" stroke-width="1"/>
+
+  <!-- STATUS -->
+  <text x="580" y="30" class="mono" font-size="10" fill="#6b7785" letter-spacing="2">STATUS</text>
+  <!-- pulsing dot -->
+  <circle cx="584" cy="51" r="5" fill="#cc1414" filter="url(#glow)"/>
+  <text x="596" y="56" class="mono" font-size="14" fill="#ff3333" letter-spacing="1">EN VIVO</text>
+
+  <!-- bottom scan line -->
+  <rect width="800" height="1" y="89" fill="#22282f"/>
+</svg>
