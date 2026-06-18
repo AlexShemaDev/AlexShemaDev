@@ -17,26 +17,12 @@
 
 ---
 
-## `> STATS`
-
-<div align="center">
-
-<img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AlexShemaDev&show_icons=true&theme=dark&bg_color=0d0f12&title_color=cc1414&icon_color=cc1414&text_color=9aa3ae&border_color=22282f&border_radius=4&include_all_commits=true&count_private=true&custom_title=COMBAT+STATS" />
-<img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AlexShemaDev&layout=compact&theme=dark&bg_color=0d0f12&title_color=cc1414&text_color=9aa3ae&border_color=22282f&border_radius=4&custom_title=TOP+LANGS&langs_count=8" />
-
-<br/>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=AlexShemaDev&theme=dark&background=0d0f12&border=22282f&stroeske=22282f&ring=cc1414&fire=ff3333&currStreakLabel=cc1414&sideLabels=9aa3ae&currStreakNum=ffffff&sideNums=ffffff&dates=6b7785&border_radius=4)](https://git.io/streak-stats)
-
-</div>
-
----
 
 ## `> ACTIVIDAD`
 
 <div align="center">
 
-<img src="assets/contribution-grid.svg" width="100%" alt="contribution graph"/>
+<img src="https://ghchart.rshah.org/cc1414/AlexShemaDev" width="100%" alt="contribution chart"/>
 
 </div>
 
