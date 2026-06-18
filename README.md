@@ -10,10 +10,10 @@
 
 <br/>
 
-## `> Sobre mí`
+## `> INTRO`
 
 > Construyendo plataformas e-learning, apps móviles y paneles administrativos.
-> Stack: **NestJS · Next.js · React Native · Prisma · AWS · Firebase · Stripe**
+> Stack: **NestJS · Next.js · React Native · Prisma · AWS · Firebase · Stripe · PostgreSQL**
 
 ---
 
