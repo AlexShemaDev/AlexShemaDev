@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=28&duration=3000&pause=1000&color=CC1414&background=00000000&center=true&vCenter=true&width=600&height=70&lines=ALEXSHEMADEV;FULL-STACK+DEVELOPER;OPERATOR+%40SHEMA-YISRAEL)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=28&duration=3000&pause=1000&color=CC1414&background=00000000&center=true&vCenter=true&width=600&height=70&lines=Alekai-SHEMADEV;FULL-STACK+DEVELOPER;OPERATOR+%40SHEMA-YISRAEL)](https://git.io/typing-svg)
 
 <img src="assets/hud-header.svg" width="100%" alt="operator hud"/>
 
@@ -10,13 +10,12 @@
 
 <br/>
 
-## `> INTEL`
+## `> Sobre mí`
 
 > Construyendo plataformas e-learning, apps móviles y paneles administrativos.
 > Stack: **NestJS · Next.js · React Native · Prisma · AWS · Firebase · Stripe**
 
 ---
-
 
 ## `> ACTIVIDAD`
 
@@ -58,7 +57,5 @@
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=AlexShemaDev&color=cc1414&style=flat-square&label=RECON+COUNT)
-
-`neuremy.com · topoquizz.com — EN VIVO`
 
 </div>
